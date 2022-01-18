@@ -44,6 +44,12 @@ body{
     font-family:  'Noto Sans', sans-serif;
     font-size: 400;
     margin: 0px;
+    background-image: url(./images/bg-wool-light.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
 }
 
 h4{
@@ -52,13 +58,13 @@ h4{
 
 }
 .item-0{
-    background-color: aqua;
+    
     grid-area: item0;
     display: flex;
     justify-content: right;
 }
 .item-1{
-    background-color: rgb(0, 255, 128);
+  
     grid-area: item1;
     display: flex;
     justify-content: center;
@@ -67,11 +73,11 @@ h4{
     padding-right: 50px;
 }
 .item-2{
-    background-color: rgb(255, 102, 0);
+   
     grid-area: item3;
 }
 .item-3{
-    background-color: rgb(153, 0, 255);
+   
     grid-area: item2;
     display: flex;
     flex-direction: column;
@@ -80,7 +86,7 @@ h4{
     padding-left: 50px;
 }
 .item-4{
-    background-color: rgb(255, 17, 0);
+  
     grid-area: item4;
     display: flex;
     justify-content: right;
@@ -88,7 +94,7 @@ h4{
 
 }
 .item-5{
-    background-color: rgb(0, 26, 255);
+   
     grid-area: item5;
     display: flex;
     justify-content: center;
@@ -97,11 +103,11 @@ h4{
     padding-right: 50px;
 }
 .item-6{
-    background-color: rgb(62, 99, 44);
+    
     grid-area: item7;
 }
 .item-7{
-    background-color: rgb(214, 203, 54);
+   
     grid-area: item6;
     display: flex;
     flex-direction: column;
@@ -188,27 +194,27 @@ h4{
 }
 
 .image-1{
-    background-color: aqua;
+   
 }
 
 .image-2{
-    background-color: rgb(43, 255, 0);
+    
 }
 
 .image-3{
-    background-color: rgb(38, 0, 255);
+   
 }
 
 .image-4{
-    background-color: rgb(229, 255, 0);
+   
 }
 
 .image-5{
-    background-color: rgb(255, 0, 234);
+    
 }
 
 .image-6{
-    background-color: rgb(255, 0, 0);
+   
 }
 
 .grid-images{
@@ -221,6 +227,7 @@ h4{
     justify-content: center;
     column-gap: 40px;
     row-gap: 2px;
+    margin-top: 100px;
 }
 
 .grid-images img{
